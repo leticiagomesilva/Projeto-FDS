@@ -8,9 +8,4 @@ Desenvolvimento web com o objetivo de abordar os desafios das Metas de Desenvolv
 Links Utilizados:
 https://trello.com/b/KzjchGX7/scrumban
 
-Equipe Exquisite: 
--Gabriel Bezerra de Andrade 
--Gabriel Henriques Belliato
--Hugo Alcantra da Rocha 
--Letícia Gomes da Silva
--Leticia Lopes Moreira 
+Equipe Exquisite:                                                                                                                                                                            -Gabriel Bezerra de Andrade                                                                                                                                                                  -Gabriel Henriques Belliato                                                                                                                                                                  -Hugo Alcantra da Rocha                                                                                                                                                                      -Letícia Gomes da Silva                                                                                                                                                                      -Leticia Lopes Moreira 
