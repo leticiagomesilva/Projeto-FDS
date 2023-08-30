@@ -9,8 +9,8 @@ Links Utilizados:
 https://trello.com/b/KzjchGX7/scrumban
 
 Equipe Exquisite: 
--Hugo Alcantra da Rocha 
 -Gabriel Bezerra de Andrade 
--Gabriel Henriques Belliato 
+-Gabriel Henriques Belliato
+-Hugo Alcantra da Rocha 
 -Letícia Gomes da Silva
 -Leticia Lopes Moreira 
