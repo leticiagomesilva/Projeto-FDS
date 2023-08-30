@@ -10,4 +10,7 @@ https://trello.com/b/KzjchGX7/scrumban
 
 Equipe Exquisite:
 - Gabriel Bezerra de Andrade - gba@cesar.school
-- Gabriel Henriques Belliato - ghb@cesar.school, Hugo Alcantra da Rocha - har3@cesar.school, Letícia Gomes da Silva - lgs@cesar.school, Leticia Lopes Moreira - llm3@cesar.school
+- Gabriel Henriques Belliato - ghb@cesar.school
+- Hugo Alcantra da Rocha - har3@cesar.school
+- Letícia Gomes da Silva - lgs@cesar.school
+- Leticia Lopes Moreira - llm3@cesar.school
