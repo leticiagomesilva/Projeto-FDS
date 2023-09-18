@@ -13,6 +13,7 @@ Screencast:
 
 Print do Quadro e BackLog do Jira:
 - Quadro:
+![QuadroJira](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/035da831-011c-4688-9e77-254dd0452f0b)
 - BackLog:
 ![BackLog](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4bbcdb94-0e50-4c70-892c-f720846f9844)
 
