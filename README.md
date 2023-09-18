@@ -9,7 +9,6 @@ Links Utilizados:
 - Trello: https://trello.com/b/KzjchGX7/scrumban
 - Figma: https://www.figma.com/file/sioD1vheAjONdk4OKGPabL/Projeto-FDS-Exquisite?type=design&node-id=428%3A5918&mode=design&t=16iN85E6OI5rWvzW-1
 - Jira: https://fdsprojectexquisite.atlassian.net/jira/software/projects/EX/boards/2
-- Scketches e Storyboard:
 - Screencast:
 
 Equipe Exquisite:
