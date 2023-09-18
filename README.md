@@ -10,6 +10,9 @@ Links Utilizados:
 - Figma: https://www.figma.com/file/sioD1vheAjONdk4OKGPabL/Projeto-FDS-Exquisite?type=design&node-id=428%3A5918&mode=design&t=16iN85E6OI5rWvzW-1
 - Screencast:
 
+Print do Quadro e BackLog do Jira:
+- ![BackLog](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4bbcdb94-0e50-4c70-892c-f720846f9844)
+
 Equipe Exquisite:
 - Gabriel Bezerra de Andrade - gba@cesar.school
 - Gabriel Henriques Belliato - ghb@cesar.school
