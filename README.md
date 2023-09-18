@@ -11,8 +11,8 @@ Links Utilizados:
 - Screencast:
 
 Print do Quadro e BackLog do Jira:
-Quadro:
-BackLog:
+- Quadro:
+- BackLog:
 ![BackLog](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4bbcdb94-0e50-4c70-892c-f720846f9844)
 
 Equipe Exquisite:
