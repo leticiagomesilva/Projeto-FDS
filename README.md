@@ -11,7 +11,7 @@ Links Utilizados:
 
 Screencast:
 
-https://www.loom.com/share/a09231db3fb1420e81f489f3b4503da3?sid=6d4a87aa-67af-4f9e-9b7b-3f8a66421455
+https://www.loom.com/share/a09231db3fb1420e81f489f3b4503da3?sid=dff45cbb-b5f8-401f-ac6e-e482ce120c84
 
 Print do Quadro e BackLog do Jira:
 - Quadro:
