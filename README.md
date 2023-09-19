@@ -10,6 +10,7 @@ Links Utilizados:
 - Figma: https://www.figma.com/file/sioD1vheAjONdk4OKGPabL/Projeto-FDS-Exquisite?type=design&node-id=428%3A5918&mode=design&t=16iN85E6OI5rWvzW-1
 
 Screencast:
+
 https://www.loom.com/share/a09231db3fb1420e81f489f3b4503da3?sid=6d4a87aa-67af-4f9e-9b7b-3f8a66421455
 
 Print do Quadro e BackLog do Jira:
