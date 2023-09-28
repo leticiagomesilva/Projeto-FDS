@@ -14,8 +14,8 @@ def index(request):
 #def index(request):
 #    return HttpResponse("Página de Inicio contendo as perguntas")
 
-def salas(request):
-    return HttpResponse("Página para criação/acesso das salas")
+def ranking(request):
+    return HttpResponse("Página onde tem acesso ao ranking")
 
 def metas(request):
     return HttpResponse("Página para adicionar metas")
