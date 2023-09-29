@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r exquisite/requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
@@ -48,11 +48,20 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
+      - name: Cleaning testing files
+        run: |
+            cd exquisite/
+            rm db.sqlite3
+            rm .env
+            cd ..
+          
       - name: Download artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: python-app
-          path: .
+          path: |
+            exquisite 
+            !venv/
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
