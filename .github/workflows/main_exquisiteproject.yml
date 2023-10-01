@@ -52,7 +52,7 @@ jobs:
         run: |
             cd exquisite/
             rm db.sqlite3
-            rm .env
+            rm arquivo.env
             cd ..
           
       - name: Download artifact from build job
