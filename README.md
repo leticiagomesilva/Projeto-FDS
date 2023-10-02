@@ -29,11 +29,27 @@ Screencast:
 
 ADICIONAR
 
-Relato de Pair Programming 
+Relato de pair programming 
 
-1- Leticia Gomes e Hugo Rocha formaram uma dupla eficiente durante a codificação. Mantiveram o foco na organização e na padronização dos códigos visando atingir uma maior qualidade. A dupla se complementou bastante durante o processo, ratificando uma experiência positiva da técnica experimentada. Além disso, ambos fizeram pesquisas de forma proativa, trazendo insights valiosos para a evolução do projeto.
+1- Leticia Gomes e Hugo Rocha formaram uma dupla eficiente durante a codificação.
+Mantiveram o foco na organização e na padronização dos códigos visando atingir uma maior
+qualidade. A dupla se complementou bastante durante o processo, ratificando uma experiência
+positiva da técnica experimentada. Além disso, ambos fizeram pesquisas de forma proativa,
+trazendo insights valiosos para a evolução do projeto.
 
-2- Gabriel Bezerra e Gabriel Belliato possuem facilidade em trocar ideias e construir soluções, o que foi essencial para o desenvolvimento dos códigos. A dupla se mostrou eficaz em traduzir conceitos abstratos para códigos funcionais. No cenário da técnica experimentada, os integrantes se envolveram em uma ótima dinâmica, tornando a vivência desse período muito enriquecedora.  Ambos se equiparam a dupla anterior quando se trata de pesquisa e proatividade.
+2- Gabriel Bezerra e Gabriel Belliato possuem facilidade em trocar ideias e construir soluções, o
+que foi essencial para o desenvolvimento dos códigos. A dupla se mostrou eficaz em traduzir
+conceitos abstratos para códigos funcionais. No cenário da técnica experimentada, os
+integrantes se envolveram em uma ótima dinâmica, tornando a vivência desse período muito
+enriquecedora. Ambos se equiparam a dupla anterior quando se trata de pesquisa e
+proatividade.
+
+3- Leticia Lopes atuou no registro e documentação do progresso do projeto, concedendo
+suporte às duas duplas quando necessário.
+
+Cada membro da equipe contribuiu de forma singular durante as sessões de desenvolvimento.
+A diversidade de habilidades e perspectivas resultou em um ambiente altamente produtivo que
+agregou conhecimento a todos do grupo.
 
 Print do Quadro e BackLog do Jira:
 - Quadro:
