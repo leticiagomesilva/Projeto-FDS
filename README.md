@@ -37,7 +37,7 @@ Relato de Pair Programming
 
 Print do Quadro e BackLog do Jira:
 - Quadro:
-ADICIONAR
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/8f7536a1-7dc0-4550-bc5b-d56dfd130d45)
 - BackLog:
 ![2023-10-02 (4)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/6baf44f2-cc89-4c9d-9c1b-8fec44ec7f8c)
 
