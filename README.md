@@ -38,7 +38,7 @@ Diagrama de Atividades:
 
 Screencast:
 
-ADICIONAR
+https://www.loom.com/share/ab9815610250490c958bae9a4f7b68cb?sid=b0cffd6d-1a53-4f0f-a2c9-b8656fe0d0cd
 
 Relato de pair programming 
 
