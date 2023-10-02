@@ -1,0 +1,28 @@
+{% extends 'apps/base.html' %}
+{% block content %}
+    <br>
+    <br>
+    <br>
+    <table class="table table-striped">
+        <table class="table align-center">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Pontos</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for pessoa in pessoas %}
+                <tr>
+                    <th scope="row">{{pessoa.posicao}}</th>
+                    <td>{{pessoa.nome}}</td>
+                    <td>{{pessoa.sobrenome}}</td>
+                    <td>{{pessoa.pontuacao}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock content %}
