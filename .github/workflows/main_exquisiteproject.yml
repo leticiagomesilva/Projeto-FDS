@@ -50,7 +50,7 @@ jobs:
     steps:
       - name: Cleaning testing files
         run: |
-            cd exquisite/
+            cd Projeto-FDS/
             rm db.sqlite3
             rm arquivo.env
             cd ..
