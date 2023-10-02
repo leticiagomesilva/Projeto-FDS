@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - ExquisiteProject
+name: Build and deploy Python app to Azure Web App - Exquisite-app
 
 on:
   push:
@@ -32,10 +32,10 @@ jobs:
 
       - name: Cleaning testing files
         run: |
-            cd exquisite/
-            rm db.sqlite3
-            rm arquivo.env
-            cd ..
+          cd exquisite/
+          rm db.sqlite3
+          rm arquivo.env
+          cd ..
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
@@ -55,19 +55,16 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-
       - name: Download artifact from build job
-        uses: actions/upload-artifact@v2
+        uses: actions/download-artifact@v2
         with:
           name: python-app
-          path: |
-            exquisite 
-            !venv/
+          path: .
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'ExquisiteProject'
+          app-name: 'Exquisite-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_511D5F32274743BF960916C7FBA6E588 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14E2100EB5F14772A395FC2F4C6FCDAC }}
