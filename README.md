@@ -30,8 +30,8 @@ Screencast:
 ADICIONAR
 
 Print do Quadro e BackLog do Jira:
--Quadro:
-![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/07de0320-b2e3-4276-a110-265e2369ceab)
+- Quadro:
+ADICIONAR
 - BackLog:
 ![2023-10-02 (4)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/6baf44f2-cc89-4c9d-9c1b-8fec44ec7f8c)
 
