@@ -33,6 +33,9 @@ Print do Quadro e BackLog do Jira:
 Links Utilizados:
 - Desenvolvimento Web: exquisite-app.azurewebsites.net
 
+Diagrama de Atividades:
+![Diagrama de atividades_](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/333ebf52-f6cb-49f6-a3d9-df24f3c593c6)
+
 Screencast:
 
 ADICIONAR
