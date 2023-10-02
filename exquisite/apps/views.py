@@ -41,11 +41,12 @@ pessoas = [
 ]
 
 dias_da_semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado']
-
 numero_de_perguntas = [3, 5, 7, 9]
+
 
 def inicio(request):
     return render(request, 'apps/inicio.html')
+
 
 def ranking(request):
     context = {
@@ -53,6 +54,7 @@ def ranking(request):
         'pessoas': pessoas
     }
     return render(request, 'apps/ranking.html', context)
+
 
 def metas(request):
     context = {
@@ -62,14 +64,18 @@ def metas(request):
     }
     return render(request, 'apps/metas.html', context)
 
+
 def criar_perguntas(request):
     return render(request, 'apps/criar_perguntas.html', {'title': 'Crie sua Pergunta'})
+
 
 def acessar_perguntas(request):
     return render(request, 'apps/acessar_perguntas.html', {'title': 'Acessar Perguntas'})
 
+
 def perfil(request):
     return render(request, 'apps/perfil.html', {'title': 'Perfil'})
+
 
 def salas(request):
     return render(request, 'apps/salas.html', {'title': 'Salas'})
