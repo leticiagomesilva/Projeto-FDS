@@ -39,7 +39,7 @@ jobs:
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
-      - name: Download artifact from build job
+      - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
         with:
           name: python-app
@@ -54,7 +54,15 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:      
+    steps:
+
+      - name: Download artifact from build job
+        uses: actions/upload-artifact@v2
+        with:
+          name: python-app
+          path: |
+            exquisite 
+            !venv/
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
