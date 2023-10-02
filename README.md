@@ -19,6 +19,26 @@ Print do Quadro e BackLog do Jira:
 - BackLog:
 ![BackLog](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4bbcdb94-0e50-4c70-892c-f720846f9844)
 
+---Entrega 02-----------------------------------------------------------------------------------------------------------------------------
+
+Links e Instrução de Acesso:
+
+ADICIONAR
+
+Screencast:
+
+ADICIONAR
+
+Print do Quadro e BackLog do Jira:
+-Quadro:
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/07de0320-b2e3-4276-a110-265e2369ceab)
+- BackLog:
+![2023-10-02 (4)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/6baf44f2-cc89-4c9d-9c1b-8fec44ec7f8c)
+
+Print do Issue/Bug Tracker:
+
+ADICIONAR
+
 Equipe Exquisite:
 - Gabriel Bezerra de Andrade - gba@cesar.school
 - Gabriel Henriques Belliato - ghb@cesar.school
