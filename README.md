@@ -30,9 +30,8 @@ Print do Quadro e BackLog do Jira:
 
 ---Entrega 02-----------------------------------------------------------------------------------------------------------------------------
 
-Links e Instrução de Acesso:
-
-ADICIONAR
+Links Utilizados:
+- Desenvolvimento Web: exquisite-app.azurewebsites.net
 
 Screencast:
 
