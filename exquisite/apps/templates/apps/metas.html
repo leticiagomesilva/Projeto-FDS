@@ -1,86 +1,46 @@
 {% extends 'apps/base.html' %}
 {% block content %}
 
+<style>
+    .left {
+        margin: 0;
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    </style>
+
 <br>
 <br>
 <br>
 <table class="table table-striped">
     <table class="table align-right">
         <table class="table table-bordered">
-            <thead class="table-dark">
-        <tr>
-            <th scope="col">Dia da Semana &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
-            <th scope="col">Meta de Perguntas</th>
-        </tr>
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Dia da Semana &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                <th scope="col">Meta de Perguntas</th>
+            </tr>
         </thead>
         <tbody>
+            {% for dia in dias_da_semana %}
             <tr>
-                <th>Domingo</th>
+                <th>{{dia}}</th>
                 <th>
-                    <form action="" method="">
-                        <textarea nome="meta_domingo" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para os Domingos"></textarea>
-                    </form> 
+                    <form>
+                        {% for num in numero_de_perguntas %}
+                        <input type="radio" id="{{dia}}" name="meta {{dia}}" value="{{num}}">
+                        <label for="{{dia}}">{{num}} perguntas &#160&#160&#160</label>
+                        {% endfor %}
+                    </form>
                 </th>
             </tr>
-​
-            <tr>
-                <th>Segunda-Feira</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_segunda" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para as Segundas-feiras"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
-            <tr>
-                <th>Terça-Feira</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_terca" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para as Terças-feiras"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
-            <tr>
-                <th>Quarta-Feira</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_quarta" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para as Quartas-feiras"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
-            <tr>
-                <th>Quinta-Feira</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_quinta" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para as Quintas-feiras"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
-            <tr>
-                <th>Sexta-Feira</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_sexta" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para as Sextas-feiras"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
-            <tr>
-                <th>Sábado</th>
-                <th>
-                    <form action="" method="">
-                        <textarea nome="meta_sabado" cols="54" rows="1" placeholder="Digite a sua meta de perguntas para os Sábados"></textarea>
-                    </form> 
-                </th>
-            </tr>
-​
+            {% endfor %}
         </tbody>
+        <div class="left">
+            <input class="btn btn-dark" type="submit" value="Enviar">
+        </div>
     </table>
-</div>
-​
-​
- 
 {% endblock content %}

@@ -28,7 +28,7 @@ pessoas = [
     },
     {
         'nome': 'Gabriel',
-        'sobrenome': 'Beliatto',
+        'sobrenome': 'Belliato',
         'pontuacao': '195',
         'posicao': '5',
     },
@@ -39,6 +39,10 @@ pessoas = [
         'posicao': '6',
     },
 ]
+
+dias_da_semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado']
+
+numero_de_perguntas = [3, 5, 7, 9]
 
 def inicio(request):
     return render(request, 'apps/inicio.html')
@@ -51,7 +55,12 @@ def ranking(request):
     return render(request, 'apps/ranking.html', context)
 
 def metas(request):
-    return render(request, 'apps/metas.html', {'title': 'Metas'})
+    context = {
+        'title': 'Metas',
+        'dias_da_semana': dias_da_semana,
+        'numero_de_perguntas': numero_de_perguntas
+    }
+    return render(request, 'apps/metas.html', context)
 
 def criar_perguntas(request):
     return render(request, 'apps/criar_perguntas.html', {'title': 'Crie sua Pergunta'})
