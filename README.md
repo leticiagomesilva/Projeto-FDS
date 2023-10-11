@@ -11,6 +11,7 @@ Equipe Exquisite:
 - Hugo Alcantra da Rocha - har3@cesar.school
 - Letícia Gomes da Silva - lgs@cesar.school
 - Leticia Lopes Moreira - llm3@cesar.school
+- Vinícius Petribu - vclp@cesar.school
 
 --Entrega 01------------------------------------------------------------------------------------------------------------------------------
 
