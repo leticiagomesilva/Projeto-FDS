@@ -53,7 +53,7 @@ def ranking(request):
         'title': 'Ranking',
         'pessoas': pessoas
     }
-    return render(request, 'apps/ranking.html', context)
+    return render(request, 'usuarios/ranking.html', context)
 
 
 def metas(request):
