@@ -11,6 +11,7 @@ Equipe Exquisite:
 - Hugo Alcantra da Rocha - har3@cesar.school
 - Letícia Gomes da Silva - lgs@cesar.school
 - Leticia Lopes Moreira - llm3@cesar.school
+- Vinícius Petribu - vclp@cesar.school
 
 --Entrega 01------------------------------------------------------------------------------------------------------------------------------
 
@@ -38,7 +39,7 @@ Diagrama de Atividades:
 
 Screencast:
 
-ADICIONAR
+https://www.loom.com/share/ab9815610250490c958bae9a4f7b68cb?sid=b0cffd6d-1a53-4f0f-a2c9-b8656fe0d0cd
 
 Relato de pair programming 
 
