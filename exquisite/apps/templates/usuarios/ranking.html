@@ -1,28 +1,13 @@
 {% extends 'apps/base.html' %}
 {% block content %}
-    <br>
-    <br>
-    <br>
-    <table class="table table-striped">
-        <table class="table align-center">
-            <thead class="table-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Sobrenome</th>
-                <th scope="col">Pontos</th>
-            </tr>
-            </thead>
-            <tbody>
-                {% for pessoa in pessoas %}
-                <tr>
-                    <th scope="row">{{pessoa.posicao}}</th>
-                    <td>{{pessoa.nome}}</td>
-                    <td>{{pessoa.sobrenome}}</td>
-                    <td>{{pessoa.pontuacao}}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <div style="text-align: center;" class="center">
+        <h2>Cadastrando o Rankindo dos Alunos:</h2>
+        Nome do Aluno: <input class="form-control-sm" type="text">
+        <br>
+        Sobrenome: <input class="form-control-sm" type="text">
+        <br>
+        Pontos: <input class="form-control-sm" type="text">
+        <br>
+        <button class="form-control-sm">Cadastrar</button>
     </div>
 {% endblock content %}
