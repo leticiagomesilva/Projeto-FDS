@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Question, Choice
+from .models import Question, Choice, Usuario
 
 pessoas = [
     {
@@ -47,14 +47,19 @@ numero_de_perguntas = [3, 5, 7, 9]
 def inicio(request):
     return render(request, 'apps/inicio.html')
 
-
 def ranking(request):
-    context = {
-        'title': 'Ranking',
-        'pessoas': pessoas
-    }
-    return render(request, 'usuarios/ranking.html', context)
+    return render(request, 'usuarios/ranking.html')
 
+def usuarios(request):
+    novo_usuario = Usuario()
+    novo_usuario.nome = request.POST.get('nome')
+    novo_usuario.sobrenome = request.POST.get('sobrenome')
+    novo_usuario.pontos = request.POST.get('pontos')
+    novo_usuario.save()
+    usuarios = {
+        'usuarios': Usuario.objects.all()
+    }
+    return render(request, 'usuarios/acessar_ranking.html', usuarios)
 
 def metas(request):
     context = {
