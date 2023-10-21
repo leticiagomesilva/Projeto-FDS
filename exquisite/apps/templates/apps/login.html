@@ -6,7 +6,7 @@
         font-family: sans-serif;
     }
     .login{
-        background: #E56A54;
+        background: #000000;
         border-radius: 10px;
         width: 400px;
         padding: 40px;
@@ -14,7 +14,7 @@
     .login h2{
         margin-bottom: 30px;
         font-size: 30px;
-        color: #000000;
+        color: #f7f4f4;
         text-align: center;
     }
     .login .box-user{
@@ -26,8 +26,8 @@
         outline: none;
         border: 0;
         background: transparent;
-        border-bottom: 1px solid #000000;
-        color: #000000;
+        border-bottom: 1px solid #f8f2f2;
+        color: #f8eeee;
         font-size: 16px;
         margin-bottom: 30px;
     }
@@ -36,7 +36,7 @@
         top: 0;
         left: 0;
         padding: 10px 0;
-        color: #000000;
+        color: #f8f1f1;
         font-size: 16px;
         pointer-events: none;
         transition: .5s;
@@ -46,37 +46,13 @@
     {
         top: -20px;
         left: 0;
-        color: #000000;
+        color: #f8f2f2;
         font-size: 12px;
     }
     .forget{
-        font-size: 12px;
+        font-size: 15px;
         color: #4F4EF1;
         float: right;
-    }
-    .btn{
-        position: relative;
-        display: inline-block;
-        padding: 12px 20px;
-        color: #000000;
-        text-decoration: none;
-        font-size: 13px;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-weight: 700;
-        margin-top: 20px;
-        transition: .5s;
-       
-    }
-    .btn:hover{
-        background: #03e9f4;
-        border-radius: 5px;
-        color: #000000;
-
-    }
-    .btn span{
-        position: absolute;
-        display: block;
     }
 </style>
 
@@ -107,7 +83,7 @@
                 {% endfor %}
             </div>
 
-            <a href="{% url entrar %}" class="btn">Entrar</a>
+            <a href="{% url entrar %}" class="btn btn-light">Entrar</a>
         </form>
     </div>
 {% endblock content %}
