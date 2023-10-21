@@ -8,6 +8,7 @@ urlpatterns = [
     path('metas/', views.metas, name="metas"),
     path('criar_perguntas/', views.criar_perguntas, name="criar_perguntas"),
     path('acessar_perguntas/', views.acessar_perguntas, name="acessar_perguntas"),
-    path('perfil/', views.perfil, name="perfil"),
+    path('login/', views.login, name="login"),
     path('salas/', views.salas, name="salas"),
+    path('cadastro/', views.cadastro, name="cadastro"),
 ]

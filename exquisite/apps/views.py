@@ -77,10 +77,25 @@ def criar_perguntas(request):
 def acessar_perguntas(request):
     return render(request, 'apps/acessar_perguntas.html', {'title': 'Acessar Perguntas'})
 
-
-def perfil(request):
-    return render(request, 'apps/perfil.html', {'title': 'Perfil'})
-
-
 def salas(request):
     return render(request, 'apps/salas.html', {'title': 'Salas'})
+
+def login(request):
+    context = {
+        'title': 'Login',
+        'texts': ['E-mail'],
+        'passwords': ['Senha'],                          # Mudar para pagina de esquecimento de senha
+        'links': [{'title': 'Esqueceu sua senha?', 'ref': 'inicio'}, {'title': 'Criar Conta', 'ref': 'cadastro'}],
+        'entrar': 'acessar_perguntas' # Mudar se necessário
+    }
+    return render(request, 'apps/login.html', context)
+
+def cadastro(request):
+    context = {
+        'title': 'Cadastro',
+        'texts': ['Informe seu E-mail'],
+        'passwords': ['Informe sua Senha'],
+        'links': [{'title': 'Login', 'ref': 'login'}],
+        'entrar': 'inicio'
+    }
+    return render(request, 'apps/cadastro.html', context)
