@@ -99,3 +99,12 @@ def cadastro(request):
         'entrar': 'inicio'
     }
     return render(request, 'apps/cadastro.html', context)
+
+def pergunta(request):
+    return render(request, 'apps/pergunta.html', {'title': 'pergunta'})
+
+def resposta(request):
+    return render(request, 'apps/resposta.html', {'title': 'resposta'})
+
+def avaliar(request):
+    return render(request, 'apps/avaliar.html', {'title': 'avaliar'})

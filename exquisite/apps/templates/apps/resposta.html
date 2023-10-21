@@ -1,0 +1,74 @@
+<style>
+    .color-box{
+        background-color: black;
+        width: 400px;
+        height: 490px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+</style>
+
+<style>
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+    }
+    </style>
+
+<style>
+    .quadrado-preto {
+        width: 500px; 
+        height: 450px; 
+        background-color: black; 
+        color: white; 
+        text-align: center; 
+        line-height: 200px; 
+        margin-top: 90px;
+    }
+</style>
+
+<style>
+    .star {
+    position: absolute;
+    bottom: -50px;
+    right: 30px;
+    font-size: 70px; /* Tamanho da estrela */
+    color: yellow; /* Cor da estrela */
+    z-index: 1;
+}
+</style>
+
+<style>
+    .title {
+    position: absolute;
+    top: 100px; /* Ajuste a posição vertical conforme necessário */
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: transparent;
+}
+</style>
+
+{% extends 'apps/base.html' %}
+{% block content %}
+    <div class="center">
+        <br>
+        <br>
+        <br>
+        <div class = "color-box quadrado-preto">
+            <a href="{% url 'avaliar' %}"> 
+                <div class="star">&#9733;</div>
+            </a>
+        </div>
+        
+        <div>
+            
+            <h1 class="title">?Resposta</h1>
+        
+        </div>
+{% endblock content %}

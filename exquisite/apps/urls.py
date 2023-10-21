@@ -11,4 +11,7 @@ urlpatterns = [
     path('login/', views.login, name="login"),
     path('salas/', views.salas, name="salas"),
     path('cadastro/', views.cadastro, name="cadastro"),
+    path('pergunta.html', views.pergunta, name="pergunta"),
+    path('resposta.html', views.resposta, name="resposta"),
+    path('avaliar.html', views.avaliar, name="avaliar"),
 ]
