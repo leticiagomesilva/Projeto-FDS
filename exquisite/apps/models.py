@@ -15,3 +15,7 @@ class Usuario(models.Model):
     nome = models.TextField(max_length=255)
     sobrenome = models.TextField(max_length=255)
     pontos = models.IntegerField()
+
+class Pergunta(models.Model):
+    pertunta= models.TextField(max_length=500)
+    resposta= models.TextField(max_length=500)

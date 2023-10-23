@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Question, Choice, Usuario
+from .models import Pergunta
 
 pessoas = [
     {
@@ -108,3 +109,12 @@ def resposta(request):
 
 def avaliar(request):
     return render(request, 'apps/avaliar.html', {'title': 'avaliar'})
+
+def criar_perguntas(request):
+    if request.method == 'POST':
+        pergunta_texto = request.POST.get('pergunta')
+        pergunta = Pergunta(pergunta_texto=pergunta_texto)
+        pergunta.save()
+        return redirect('alguma_pagina_de_sucesso')  # Redirecione para a página de sucesso após salvar a pergunta
+
+    return render(request, 'apps/criar_perguntas.html')
