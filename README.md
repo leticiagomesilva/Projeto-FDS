@@ -87,9 +87,9 @@ Screencast da Aplicação Web:
 
 ADICIONAR 
 
-Issue Issue/Bug Tracker:
+Issue/Bug Tracker:
 
-ADICIONAR
+![WhatsApp Image 2023-10-23 at 15 49 17](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/e8975da3-9f04-4e67-8c17-5dcbf17e54bf)
 
 Screencast do Processo de Build:
 
