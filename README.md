@@ -75,6 +75,10 @@ ADICIONAR
 
 ---Entrega 03-----------------------------------------------------------------------------------------------------------------------------
 
+Documento com Histórias Atualizadas:
+
+https://docs.google.com/document/d/1i5J1t-qQOsep9ZepzJ719f4gR9EWI9pA9mPWZwmbpOM/edit?usp=sharing
+
 Screencast do Protótipo: 
 
 https://www.loom.com/share/b7b61bc516014e89aa90690e180bca73?sid=3de940b6-d1f7-43b0-8543-e0216dc9ea52
