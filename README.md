@@ -72,3 +72,37 @@ Print do Quadro e BackLog do Jira:
 Print do Issue/Bug Tracker:
 
 ADICIONAR
+
+---Entrega 03-----------------------------------------------------------------------------------------------------------------------------
+
+Screencast do Protótipo: 
+
+https://www.loom.com/share/b7b61bc516014e89aa90690e180bca73?sid=3de940b6-d1f7-43b0-8543-e0216dc9ea52
+
+Diagrama de Atividades Atualizado: 
+
+https://miro.com/app/embed/uXjVNb8t0ag=/?pres=1&frameId=3458764567378116064&embedId=272727050158
+
+Screencast da Aplicação Web:
+
+ADICIONAR 
+
+Issue Issue/Bug Tracker:
+
+ADICIONAR
+
+Screencast do Processo de Build:
+
+ADICIONAR 
+
+Screencast do Teste de Sistemas:
+
+ADICIONAR 
+
+Atualização do Relato de Pair Programming: 
+
+ADICIONAR 
+
+Quadro da Sprint 02:
+
+ADICIONAR
