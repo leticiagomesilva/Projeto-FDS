@@ -79,15 +79,15 @@ def criar_perguntas(request):
         'resposta': ['Resposta'],  
         'entrar': 'acessar_perguntas' 
     }
-    return render(request, 'apps/criar_perguntas.html', context)
-
-def perguntasBD(request):
     novo_pergunta = PerguntasBD()
     novo_pergunta.materia = request.POST.get('materia')
     novo_pergunta.titulo = request.POST.get('titulo')
     novo_pergunta.pergunta = request.POST.get('pergunta')
     novo_pergunta.resposta = request.POST.get('resposta')
     novo_pergunta.save()
+    return render(request, 'apps/criar_perguntas.html', context)
+
+def perguntasBD(request):
     perguntas = {
         'perguntas': PerguntasBD.objects.all()
     }
