@@ -22,3 +22,10 @@ class Pergunta(models.Model):
 
 class AvaliacaoPergunta(models.Model):
     avaliacao = models.CharField(max_length=10, choices=[('facil', 'Fácil'), ('medio', 'Médio'), ('dificil', 'Difícil')])
+
+class PerguntasBD(models.Model):
+    id_pergunta = models.AutoField(primary_key=True)
+    materia = models.TextField(max_length=255)
+    titulo = models.TextField(max_length=255)
+    pergunta = models.TextField(max_length=1500)
+    resposta = models.TextField(max_length=1500)

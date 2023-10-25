@@ -1,82 +1,31 @@
-<style>
-    .quadrado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    
-}
-
-.container {
-    position: relative;
-}
-
-.square {
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    position: absolute;
-    margin: 10px;
-}
-
-.square:nth-child(1) {
-    top: 100px;
-    left: 350px;
-    width: 260px;
-    height: 260px;
-    
-}
-
-.square:nth-child(2) {
-    top: 100px;
-    right: 350px; 
-    width: 260px;
-    height: 260px;
-}
-
-.square:nth-child(3) {
-    bottom: -660px;
-    left: 350px;
-    width: 260px;
-    height: 260px;
-}
-
-.square:nth-child(4) {
-    bottom: -660px;
-    right: 350px;
-    width: 260px;
-    height: 260px;
-}
-
-</style>
-
-<style>
-    .title {
-    position: absolute;
-    top: 50px; /* Ajuste a posição vertical conforme necessário */
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: transparent;
-}
-</style>
-
 {% extends 'apps/base.html' %}
 {% block content %}
+<br>
+<br>
+<br>
+<br>
     <div class="container">
-        <a href="{% url 'pergunta' %}">
-            <div class="square"></div>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>ID</th>
+                <th>Matéria</th>
+                <th>Título</th>
+                <th>Pergunta</th>
+                <th>Resposta</th>
+            </tr>
+            {% for pergunta in perguntas %}
+            <tr>
+                <td>{{pergunta.id_pergunta}}</td>
+                <td>{{pergunta.materia}}</td>
+                <td>{{pergunta.titulo}}</td>
+                <td>{{pergunta.pergunta}}</td>
+                <td>{{pergunta.resposta}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <a class="navbar-brand" href="{% url 'criar_perguntas' %}">
+            <h5>Voltar</h5>
         </a>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        
     </div>
-
-    <div>
-        
-        <h1 class="title">?Minhas Perguntas</h1>
-
-    </div>
+   
 {% endblock content %}
