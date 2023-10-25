@@ -113,7 +113,7 @@ def avaliar(request):
         if avaliacao:
             avaliacao_pergunta = AvaliacaoPergunta(avaliacao=avaliacao)
             avaliacao_pergunta.save()
-            return redirect('avaliacao_sucesso.html')
+            return redirect('avaliacao_sucesso')
 
     return render(request, 'apps/avaliar.html', {'title': 'avaliar'})
 
