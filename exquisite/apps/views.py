@@ -72,22 +72,17 @@ def metas(request):
 
 
 def criar_perguntas(request):
-    context = {
-        'title': ['Matéria'],
-        'texts': ['Título'],
-        'pergunta': ['Pergunta'],
-        'resposta': ['Resposta'],  
-        'entrar': 'acessar_perguntas' 
-    }
-    novo_pergunta = PerguntasBD()
-    novo_pergunta.materia = request.POST.get('materia')
-    novo_pergunta.titulo = request.POST.get('titulo')
-    novo_pergunta.pergunta = request.POST.get('pergunta')
-    novo_pergunta.resposta = request.POST.get('resposta')
-    novo_pergunta.save()
-    return render(request, 'apps/criar_perguntas.html', context)
+    return render(request, 'apps/criar_perguntas.html')
 
 def perguntasBD(request):
+    if request.method == 'POST':
+        novo_pergunta = PerguntasBD()
+        novo_pergunta.materia = request.POST.get('materia')
+        novo_pergunta.titulo = request.POST.get('titulo')
+        novo_pergunta.pergunta = request.POST.get('pergunta')
+        novo_pergunta.resposta = request.POST.get('resposta')
+        novo_pergunta.save()
+        return redirect('listagem_perguntas')
     perguntas = {
         'perguntas': PerguntasBD.objects.all()
     }
@@ -134,12 +129,3 @@ def avaliar(request):
 
 def avaliacao_sucesso(request):
     return render(request, 'apps/avaliacao_sucesso.html', {'title': 'avaliacao_sucesso'})
-
-def criar_perguntas(request):
-    if request.method == 'POST':
-        pergunta_texto = request.POST.get('pergunta')
-        pergunta = Pergunta(pergunta_texto=pergunta_texto)
-        pergunta.save()
-        return redirect('alguma_pagina_de_sucesso')  # Redirecione para a página de sucesso após salvar a pergunta
-
-    return render(request, 'apps/criar_perguntas.html')
