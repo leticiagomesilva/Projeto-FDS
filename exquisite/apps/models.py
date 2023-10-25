@@ -17,5 +17,8 @@ class Usuario(models.Model):
     pontos = models.IntegerField()
 
 class Pergunta(models.Model):
-    pertunta= models.TextField(max_length=500)
+    pergunta= models.TextField(max_length=500)
     resposta= models.TextField(max_length=500)
+
+class AvaliacaoPergunta(models.Model):
+    avaliacao = models.CharField(max_length=10, choices=[('facil', 'Fácil'), ('medio', 'Médio'), ('dificil', 'Difícil')])

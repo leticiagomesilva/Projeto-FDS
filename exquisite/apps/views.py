@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Question, Choice, Usuario
-from .models import Pergunta
+from .models import Pergunta, AvaliacaoPergunta
 
 pessoas = [
     {
@@ -108,7 +108,17 @@ def resposta(request):
     return render(request, 'apps/resposta.html', {'title': 'resposta'})
 
 def avaliar(request):
+    if request.method == 'POST':
+        avaliacao = request.POST.get('avaliacao')
+        if avaliacao:
+            avaliacao_pergunta = AvaliacaoPergunta(avaliacao=avaliacao)
+            avaliacao_pergunta.save()
+            return redirect('avaliacao_sucesso.html')
+
     return render(request, 'apps/avaliar.html', {'title': 'avaliar'})
+
+def avaliacao_sucesso(request):
+    return render(request, 'apps/avaliacao_sucesso.html', {'title': 'avaliacao_sucesso'})
 
 def criar_perguntas(request):
     if request.method == 'POST':
