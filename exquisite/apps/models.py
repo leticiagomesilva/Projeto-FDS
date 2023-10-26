@@ -11,8 +11,9 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
 
-class Usuario(models.Model):
+class Ranking(models.Model):
     id_usuario = models.AutoField(primary_key=True)
+    posicao = models.IntegerField()
     nome = models.TextField(max_length=255)
     sobrenome = models.TextField(max_length=255)
     pontos = models.IntegerField()

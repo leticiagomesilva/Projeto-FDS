@@ -7,23 +7,20 @@
     <div class="container">
         <table class="table table-bordered table-striped">
             <tr>
-                <th>id</th>
-                <th>nome</th>
-                <th>sobrenome</th>
-                <th>pontos</th>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Pontos</th>
             </tr>
             {% for usuario in usuarios %}
             <tr>
-                <td>{{usuario.id_usuario}}</td>
+                <td>{{usuario.posicao}}</td>
                 <td>{{usuario.nome}}</td>
                 <td>{{usuario.sobrenome}}</td>
                 <td>{{usuario.pontos}}</td>
             </tr>
             {% endfor %}
         </table>
-        <a class="navbar-brand" href="{% url 'ranking' %}">
-            <h5>Voltar</h5>
-        </a>
     </div>
    
 {% endblock content %}

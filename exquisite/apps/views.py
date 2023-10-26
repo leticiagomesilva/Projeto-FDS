@@ -2,28 +2,29 @@ from django.shortcuts import render, redirect
 from .models import *
 
 
-dias_da_semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado']
-numero_de_perguntas = [3, 5, 7, 9]
-
-
 def inicio(request):
     return render(request, 'apps/inicio.html')
 
 
-def ranking(request):
-    return render(request, 'usuarios/ranking.html')
+def atualizar_ranking(request):
+    return render(request, 'apps/atualizar_ranking.html')
 
 
-def usuarios(request):
-    novo_usuario = Usuario()
-    novo_usuario.nome = request.POST.get('nome')
-    novo_usuario.sobrenome = request.POST.get('sobrenome')
-    novo_usuario.pontos = request.POST.get('pontos')
-    novo_usuario.save()
+def acessar_ranking(request):
+    if request.method == 'POST':
+        novo_usuario = Ranking()
+        novo_usuario.posicao = request.POST.get('posicao')
+        novo_usuario.nome = request.POST.get('nome')
+        novo_usuario.sobrenome = request.POST.get('sobrenome')
+        novo_usuario.pontos = request.POST.get('pontos')
+
+        if novo_usuario.posicao and novo_usuario.nome and novo_usuario.sobrenome and novo_usuario.pontos:
+            novo_usuario.save()
+
     usuarios = {
-        'usuarios': Usuario.objects.all()
+        'usuarios': Ranking.objects.all()
     }
-    return render(request, 'usuarios/acessar_ranking.html', usuarios)
+    return render(request, 'apps/acessar_ranking.html', usuarios)
 
 
 def atualizar_meta(request):

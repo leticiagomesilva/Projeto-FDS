@@ -3,8 +3,10 @@
     <form action="{% url 'listagem_ranking' %}" method="post">
         {% csrf_token %}
         <div style="text-align: center;" class="center">
-            <h2>Cadastrando o Ranking dos Alunos:</h2>
-            Nome do Aluno: <input name="nome" class="form-control-sm" type="text">
+            <h2>Cadastrando o Ranking:</h2>
+            Posição: <input name="posicao" class="form-control-sm" type="text">
+            <br>
+            Nome: <input name="nome" class="form-control-sm" type="text">
             <br>
             Sobrenome: <input name="sobrenome" class="form-control-sm" type="text">
             <br>
