@@ -89,7 +89,7 @@ ADICIONAR
 
 Link da Aplicação Web:
 
-exquisite-app.azurewebsites.net
+https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
