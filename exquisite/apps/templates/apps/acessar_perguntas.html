@@ -3,23 +3,18 @@
 <br>
 <br>
 <br>
-<br>
     <div class="container">
         <table class="table table-bordered table-striped">
             <tr>
-                <th>ID</th>
                 <th>Matéria</th>
                 <th>Título</th>
                 <th>Pergunta</th>
-                <th>Resposta</th>
             </tr>
             {% for pergunta in perguntas %}
             <tr>
-                <td>{{pergunta.id_pergunta}}</td>
                 <td>{{pergunta.materia}}</td>
                 <td>{{pergunta.titulo}}</td>
                 <td>{{pergunta.pergunta}}</td>
-                <td>{{pergunta.resposta}}</td>
             </tr>
             {% endfor %}
         </table>
