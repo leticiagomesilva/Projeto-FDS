@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Question, Choice
-from .models import Usuario, AvaliacaoPergunta, PerguntasBD
+from .models import *
 
 
 dias_da_semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado']
@@ -27,13 +26,22 @@ def usuarios(request):
     return render(request, 'usuarios/acessar_ranking.html', usuarios)
 
 
-def metas(request):
-    context = {
-        'title': 'Metas',
-        'dias_da_semana': dias_da_semana,
-        'numero_de_perguntas': numero_de_perguntas
+def atualizar_meta(request):
+    return render(request, 'apps/atualizar_meta.html')
+
+
+def acessar_meta(request):
+    if request.method == 'POST':
+        meta = request.POST.get('meta')
+        if meta:
+            metas_semana = Meta(meta=meta)
+            metas_semana.save()
+    
+    meta = {
+        'meta': Meta.objects.last()
     }
-    return render(request, 'apps/metas.html', context)
+
+    return render(request, 'apps/acessar_meta.html', meta)
 
 
 def criar_perguntas(request):
@@ -58,12 +66,11 @@ def acessar_perguntas(request):
 
 
 def salas(request):
-    return render(request, 'apps/salas.html', {'title': 'Salas'})
+    return render(request, 'apps/salas.html')
 
 
 def login(request):
     context = {
-        'title': 'Login',
         'texts': ['E-mail'],
         'passwords': ['Senha'],                          # Mudar para pagina de esquecimento de senha
         'links': [{'title': 'Esqueceu sua senha?', 'ref': 'inicio'}, {'title': 'Criar Conta', 'ref': 'cadastro'}],
@@ -74,7 +81,6 @@ def login(request):
 
 def cadastro(request):
     context = {
-        'title': 'Cadastro',
         'texts': ['Informe seu E-mail'],
         'passwords': ['Informe sua Senha'],
         'links': [{'title': 'Login', 'ref': 'login'}],
@@ -91,8 +97,8 @@ def avaliar(request):
             avaliacao_pergunta.save()
             return redirect('avaliacao_sucesso')
 
-    return render(request, 'apps/avaliar.html', {'title': 'avaliar'})
+    return render(request, 'apps/avaliar.html')
 
 
 def avaliacao_sucesso(request):
-    return render(request, 'apps/avaliacao_sucesso.html', {'title': 'avaliacao_sucesso'})
+    return render(request, 'apps/avaliacao_sucesso.html')

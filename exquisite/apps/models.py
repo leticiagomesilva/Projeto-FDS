@@ -28,3 +28,6 @@ class PerguntasBD(models.Model):
     titulo = models.TextField(max_length=255)
     pergunta = models.TextField(max_length=1500)
     resposta = models.TextField(max_length=1500)
+
+class Meta(models.Model):
+    meta = models.CharField(max_length=15, choices=[('7 perguntas', '7'), ('14 perguntas', '14'), ('21 perguntas', '21'), ('28 perguntas', '28'), ('35 perguntas', '35')])
