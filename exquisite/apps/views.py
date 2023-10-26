@@ -1,45 +1,7 @@
 from django.shortcuts import render, redirect
-from .models import Question, Choice, Usuario
-from .models import Pergunta, AvaliacaoPergunta, PerguntasBD
+from .models import Question, Choice
+from .models import Usuario, AvaliacaoPergunta, PerguntasBD
 
-pessoas = [
-    {
-        'nome': 'Ricardo',
-        'sobrenome': 'Costa',
-        'pontuacao': '586',
-        'posicao': '1', 
-    },
-    {
-        'nome': 'Letícia',
-        'sobrenome': 'Gomes',
-        'pontuacao': '431',
-        'posicao': '2',
-    },
-    {
-        'nome': 'Hugo',
-        'sobrenome': 'Rocha',
-        'pontuacao': '312',
-        'posicao': '3',
-    },
-    {
-        'nome': 'Letícia',
-        'sobrenome': 'Lopes',
-        'pontuacao': '279',
-        'posicao': '4',
-    },
-    {
-        'nome': 'Gabriel',
-        'sobrenome': 'Belliato',
-        'pontuacao': '195',
-        'posicao': '5',
-    },
-    {
-        'nome': 'Gabriel',
-        'sobrenome': 'Bezerra',
-        'pontuacao': '182',
-        'posicao': '6',
-    },
-]
 
 dias_da_semana = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado']
 numero_de_perguntas = [3, 5, 7, 9]
@@ -48,8 +10,10 @@ numero_de_perguntas = [3, 5, 7, 9]
 def inicio(request):
     return render(request, 'apps/inicio.html')
 
+
 def ranking(request):
     return render(request, 'usuarios/ranking.html')
+
 
 def usuarios(request):
     novo_usuario = Usuario()
@@ -61,6 +25,7 @@ def usuarios(request):
         'usuarios': Usuario.objects.all()
     }
     return render(request, 'usuarios/acessar_ranking.html', usuarios)
+
 
 def metas(request):
     context = {
@@ -74,22 +39,27 @@ def metas(request):
 def criar_perguntas(request):
     return render(request, 'apps/criar_perguntas.html')
 
-def perguntasBD(request):
+
+def acessar_perguntas(request):
     if request.method == 'POST':
         novo_pergunta = PerguntasBD()
         novo_pergunta.materia = request.POST.get('materia')
         novo_pergunta.titulo = request.POST.get('titulo')
         novo_pergunta.pergunta = request.POST.get('pergunta')
         novo_pergunta.resposta = request.POST.get('resposta')
-        novo_pergunta.save()
-        return redirect('listagem_perguntas')
+
+        if novo_pergunta.materia and novo_pergunta.titulo and novo_pergunta.pergunta and novo_pergunta.resposta:
+            novo_pergunta.save()
+
     perguntas = {
         'perguntas': PerguntasBD.objects.all()
     }
     return render(request, 'apps/acessar_perguntas.html', perguntas)
 
+
 def salas(request):
     return render(request, 'apps/salas.html', {'title': 'Salas'})
+
 
 def login(request):
     context = {
@@ -97,9 +67,10 @@ def login(request):
         'texts': ['E-mail'],
         'passwords': ['Senha'],                          # Mudar para pagina de esquecimento de senha
         'links': [{'title': 'Esqueceu sua senha?', 'ref': 'inicio'}, {'title': 'Criar Conta', 'ref': 'cadastro'}],
-        'entrar': 'acessar_perguntas' # Mudar se necessário
+        'entrar': 'listagem_perguntas' # Mudar se necessário
     }
     return render(request, 'apps/login.html', context)
+
 
 def cadastro(request):
     context = {
@@ -111,11 +82,6 @@ def cadastro(request):
     }
     return render(request, 'apps/cadastro.html', context)
 
-def pergunta(request):
-    return render(request, 'apps/pergunta.html', {'title': 'pergunta'})
-
-def resposta(request):
-    return render(request, 'apps/resposta.html', {'title': 'resposta'})
 
 def avaliar(request):
     if request.method == 'POST':
@@ -126,6 +92,7 @@ def avaliar(request):
             return redirect('avaliacao_sucesso')
 
     return render(request, 'apps/avaliar.html', {'title': 'avaliar'})
+
 
 def avaliacao_sucesso(request):
     return render(request, 'apps/avaliacao_sucesso.html', {'title': 'avaliacao_sucesso'})

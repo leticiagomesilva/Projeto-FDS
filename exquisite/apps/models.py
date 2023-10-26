@@ -10,18 +10,17 @@ class Choice(models.Model):
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
 
+
 class Usuario(models.Model):
     id_usuario = models.AutoField(primary_key=True)
     nome = models.TextField(max_length=255)
     sobrenome = models.TextField(max_length=255)
     pontos = models.IntegerField()
 
-class Pergunta(models.Model):
-    pergunta= models.TextField(max_length=500)
-    resposta= models.TextField(max_length=500)
 
 class AvaliacaoPergunta(models.Model):
     avaliacao = models.CharField(max_length=10, choices=[('facil', 'Fácil'), ('medio', 'Médio'), ('dificil', 'Difícil')])
+
 
 class PerguntasBD(models.Model):
     id_pergunta = models.AutoField(primary_key=True)
