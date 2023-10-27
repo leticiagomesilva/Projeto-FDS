@@ -14,4 +14,6 @@ urlpatterns = [
     path('cadastro/', views.cadastro, name="cadastro"),
     path('avaliar/', views.avaliar, name="avaliar"),
     path('avaliacao_sucesso/', views.avaliacao_sucesso, name='avaliacao_sucesso'),
+    path('acessar_perguntas/responder/<int:pergunta_id>/', views.responder, name='responder'),
+    path('acessar_perguntas/responder/resposta_correta/', views.resposta_correta, name='resposta_correta'),
 ]

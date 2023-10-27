@@ -13,7 +13,7 @@
             {% for pergunta in perguntas %}
             <tr>
                 <td>{{pergunta.materia}}</td>
-                <td>{{pergunta.titulo}}</td>
+                <td><a href="{% url 'responder' pergunta.id_pergunta %}">{{ pergunta.titulo }}</a></td>
                 <td>{{pergunta.pergunta}}</td>
             </tr>
             {% endfor %}

@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import *
 
 
@@ -103,3 +103,22 @@ def avaliar(request):
 
 def avaliacao_sucesso(request):
     return render(request, 'apps/avaliacao_sucesso.html')
+
+def responder(request, pergunta_id):
+    pergunta = get_object_or_404(PerguntasBD, id_pergunta=pergunta_id)
+    frase_pergunta = pergunta.pergunta
+    erro = False
+
+    if request.method == 'GET':
+        nova_resposta = request.GET.get('resposta', '')
+
+        if pergunta.resposta == nova_resposta:
+            return redirect('resposta_correta')
+        else:
+            erro = True
+        
+    
+    return render(request, 'apps/responder.html', {'title': 'responder', 'pergunta': pergunta, 'erro': erro, 'frase_pergunta': frase_pergunta})
+
+def resposta_correta(request):
+    return render(request, 'apps/resposta_correta.html', {'title': 'resposta_correta'})

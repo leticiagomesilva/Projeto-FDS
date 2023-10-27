@@ -1,0 +1,65 @@
+
+    <style>
+        .mensagem-erro {
+            color: red;
+            display: none;
+            position: absolute;
+            bottom: 170px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+
+<style>
+    .pergunta {
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    </style>
+
+<style>
+    .resposta {
+        margin: 0;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    </style>
+
+{% extends 'apps/base.html' %}
+{% block content %}
+<h4 class="pergunta">
+    {{frase_pergunta}}
+</h4>
+<form class="resposta" method="post" action="{% url 'responder' pergunta.id_pergunta %}">
+    {% csrf_token %}
+    <label for="resposta">Digite a resposta:</label>
+    <input type="text" name="resposta" id="resposta">
+    <button type="submit">Responder</button>
+</form>
+
+<!-- Mensagem de erro (inicialmente oculta) -->
+<div class="mensagem-erro" id="mensagem-erro">
+    A resposta está incorreta. Tente novamente.
+</div>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        var resposta = document.getElementById('resposta').value;
+        
+        if (resposta !== '{{ pergunta.resposta }}') {
+            document.getElementById('mensagem-erro').style.display = 'block';
+        } else {
+            window.location.href = "{% url 'resposta_correta' %}";
+        }
+    });
+</script>
+{% endblock content %}
