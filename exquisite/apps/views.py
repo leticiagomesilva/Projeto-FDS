@@ -118,7 +118,7 @@ def responder(request, pergunta_id):
             erro = True
         
     
-    return render(request, 'apps/responder.html', {'title': 'responder', 'pergunta': pergunta, 'erro': erro, 'frase_pergunta': frase_pergunta})
+    return render(request, 'apps/responder.html', {'pergunta': pergunta, 'erro': erro, 'frase_pergunta': frase_pergunta})
 
 def resposta_correta(request):
-    return render(request, 'apps/resposta_correta.html', {'title': 'resposta_correta'})
+    return render(request, 'apps/resposta_correta.html')

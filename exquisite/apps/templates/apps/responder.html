@@ -5,6 +5,7 @@
             display: none;
             position: absolute;
             bottom: 170px;
+            top: 60%;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -14,7 +15,7 @@
     .pergunta {
         margin: 0;
         position: absolute;
-        top: 35%;
+        top: 45%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -25,7 +26,7 @@
     .resposta {
         margin: 0;
         position: absolute;
-        top: 65%;
+        top: 55%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -34,9 +35,9 @@
 
 {% extends 'apps/base.html' %}
 {% block content %}
-<h4 class="pergunta">
+<h3 class="pergunta">
     {{frase_pergunta}}
-</h4>
+</h3>
 <form class="resposta" method="post" action="{% url 'responder' pergunta.id_pergunta %}">
     {% csrf_token %}
     <label for="resposta">Digite a resposta:</label>

@@ -31,7 +31,7 @@ class PerguntasBD(models.Model):
     resposta = models.TextField(max_length=1500)
 
 class Meta(models.Model):
-    meta = models.CharField(max_length=15, choices=[('7 perguntas', '7'), ('14 perguntas', '14'), ('21 perguntas', '21'), ('28 perguntas', '28'), ('35 perguntas', '35')])
+    meta = models.CharField(max_length=15, choices=[('7 Perguntas', '7'), ('14 Perguntas', '14'), ('21 Perguntas', '21'), ('28 Perguntas', '28'), ('35 Perguntas', '35')])
 
 class responder(models.Model):
     resposta_nova= models.TextField(max_length=255)
