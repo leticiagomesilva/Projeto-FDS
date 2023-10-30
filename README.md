@@ -93,7 +93,7 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/fa3f590e-0c93-4e59-a76f-60b8a1247a5e)
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/d3c92235-28d3-496e-af3b-6fa0afc3c1bd)
 
 Screencast do Processo de Build CD/CI:
 
