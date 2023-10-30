@@ -93,11 +93,11 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-![WhatsApp Image 2023-10-23 at 15 49 17](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/e8975da3-9f04-4e67-8c17-5dcbf17e54bf)
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/fa3f590e-0c93-4e59-a76f-60b8a1247a5e)
 
-Screencast do Processo de Build:
+Screencast do Processo de Build CD/CI:
 
-ADICIONAR 
+https://www.loom.com/share/19d648f36b644d89b7ab84275fb95b3a?sid=48216b61-4ebf-4bfd-95a6-b7f011ba2db6 
 
 Screencast do Teste de Sistemas:
 
