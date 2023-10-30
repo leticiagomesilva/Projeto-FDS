@@ -20,7 +20,7 @@ try:
     acessar_perguntas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "listagem_perguntas")))
     acessar_perguntas.click()
 
-    sleep(4)
+    sleep(3)
     erro = "clicar inicio"
     inicio = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "inicio")))
     inicio.click()
@@ -30,25 +30,25 @@ try:
     criar_perguntas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "criar_perguntas")))
     criar_perguntas.click()
     
-    sleep(2)
+    sleep(1)
     erro = "digitar materia"
     materia = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "materia")))
     materia.clear()
     materia.send_keys("Matemática")
     
-    sleep(2)
+    sleep(1)
     erro = "digitar titulo"
     titulo = driver.find_element(By.NAME, "titulo")
     titulo.clear()
     titulo.send_keys("Soma")
     
-    sleep(2)
+    sleep(1)
     erro = "digitar pergunta"
     pergunta = driver.find_element(By.NAME, "pergunta")
     pergunta.clear()
     pergunta.send_keys("2+2")
     
-    sleep(2)
+    sleep(1)
     erro = "digitar resposta"
     resposta = driver.find_element(By.NAME, "resposta")
     resposta.clear()
