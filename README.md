@@ -81,7 +81,8 @@ https://www.loom.com/share/b7b61bc516014e89aa90690e180bca73?sid=3de940b6-d1f7-43
 
 Diagrama de Atividades Atualizado: 
 
-https://miro.com/app/embed/uXjVNb8t0ag=/?pres=1&frameId=3458764567378116064&embedId=272727050158
+![WhatsApp Image 2023-10-30 at 17 04 05](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/cfe05339-5392-40b1-bd71-094aec525c3d)
+https://miro.com/app/live-embed/uXjVNVdzO7I=/?moveToViewport=887,-399,3743,1783&embedId=517822864870
 
 Screencast da Aplicação Web:
 
@@ -106,6 +107,7 @@ ADICIONAR
 Atualização do Relato de Pair Programming: 
 
 Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato, Gabriel Bezerra e Vinicus Petribu, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu novamente ficou responsável pelo código de avaliar perguntas.
+file:///C:/Users/Lenovo/Downloads/Relato%20de%20pair%20programming-Entrega%203.pdf
 
 Quadro da Sprint 02: 
 
