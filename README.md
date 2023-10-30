@@ -93,11 +93,11 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-![WhatsApp Image 2023-10-23 at 15 49 17](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/e8975da3-9f04-4e67-8c17-5dcbf17e54bf)
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/fa3f590e-0c93-4e59-a76f-60b8a1247a5e)
 
-Screencast do Processo de Build:
+Screencast do Processo de Build CD/CI:
 
-ADICIONAR 
+https://www.loom.com/share/19d648f36b644d89b7ab84275fb95b3a?sid=48216b61-4ebf-4bfd-95a6-b7f011ba2db6 
 
 Screencast do Teste de Sistemas:
 
@@ -105,7 +105,7 @@ ADICIONAR
 
 Atualização do Relato de Pair Programming: 
 
-Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia ficaram responsáveis pelo código de avaliar perguntas.
+Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato, Gabriel Bezerra e Vinicus Petribu, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu novamente ficou responsável pelo código de avaliar perguntas.
 
 Quadro da Sprint 02: 
 
