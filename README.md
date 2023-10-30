@@ -105,7 +105,7 @@ ADICIONAR
 
 Atualização do Relato de Pair Programming: 
 
-Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia ficaram responsáveis pelo código de avaliar perguntas.
+Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato, Gabriel Bezerra e Vinicus Petribu, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu novamente ficou responsável pelo código de avaliar perguntas.
 
 Quadro da Sprint 02: 
 
