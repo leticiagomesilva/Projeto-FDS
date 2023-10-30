@@ -70,10 +70,6 @@ Print do Quadro e BackLog do Jira:
 - BackLog:
 ![2023-10-02 (4)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/6baf44f2-cc89-4c9d-9c1b-8fec44ec7f8c)
 
-Print do Issue/Bug Tracker:
-
-ADICIONAR
-
 <h2>Entrega 03</h2>
 
 Screencast do Protótipo: 
@@ -107,8 +103,7 @@ https://www.loom.com/share/a6fa53f4d90347768039c240178f9d20?sid=e8a3b8aa-f35e-4b
 
 Atualização do Relato de Pair Programming: 
 
-Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato, Gabriel Bezerra e Vinicus Petribu, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu novamente ficou responsável pelo código de avaliar perguntas.
-file:///C:/Users/Lenovo/Downloads/Relato%20de%20pair%20programming-Entrega%203.pdf
+Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foram separadas para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia Lopes ficaram responsáveis pelo código de avaliar perguntas. Posteriormente, alguns integrantes auxiliaram as outras duplas com outras partes do código, como a história de responder perguntas, que era necessário obter o ID de cada uma, para assim, associar à cada resposta. Essa parte foi a que as duplas tiveram mais dificuldade.
 
 Quadro da Sprint 02: 
 
