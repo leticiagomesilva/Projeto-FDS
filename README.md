@@ -1,7 +1,7 @@
 # Projeto-FDS
 Projeto da matéria de Fundamento de Desenvolvimento de Software, do segundo período de Ciência da Computação na Cesar School.
 
-Definição do Projeto: 
+<h3>Definição do Projeto:</h3>
 
 Desenvolvimento web com o objetivo de abordar os desafios das Metas de Desenvolvimento Sustentável (ODS) 4, 9 e 10, que englobam as áreas da educação, inovação e redução das desigualdades. Esse software terá como foco a aplicação do conceito da curva de esquecimento, visando aprimorar a eficácia do aprendizado por meio de perguntas estruturadas.
 
@@ -13,7 +13,7 @@ Equipe Exquisite:
 - Leticia Lopes Moreira - llm3@cesar.school
 - Vinícius Petribu - vclp@cesar.school
 
---Entrega 01------------------------------------------------------------------------------------------------------------------------------
+<h2>Entrega 01</h2>
 
 Links Utilizados:
 - Jira: https://fdsprojectexquisite.atlassian.net/jira/software/projects/EX/boards/2
@@ -29,7 +29,7 @@ Print do Quadro e BackLog do Jira:
 - BackLog:
 ![BackLog](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4bbcdb94-0e50-4c70-892c-f720846f9844)
 
----Entrega 02-----------------------------------------------------------------------------------------------------------------------------
+<h2>Entrega 02</h2>
 
 Links Utilizados:
 - Desenvolvimento Web: exquisite-app.azurewebsites.net
@@ -73,7 +73,7 @@ Print do Issue/Bug Tracker:
 
 ADICIONAR
 
----Entrega 03-----------------------------------------------------------------------------------------------------------------------------
+<h2>Entrega 03</h2>
 
 Screencast do Protótipo: 
 
@@ -107,6 +107,6 @@ Atualização do Relato de Pair Programming:
 
 ADICIONAR 
 
-Quadro da Sprint 02:
+Quadro da Sprint 02: !ATUALIZAR
 
 ![2023-10-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/7cd85345-5e56-4c75-8a10-d1be13e52921)
