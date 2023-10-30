@@ -15,41 +15,51 @@ driver.get("http://127.0.0.1:8000/")
 print(f"\nTeste de Criar Perguntas no site {driver.title}")
 
 try:
-    sleep(1)
+    sleep(2)
+    erro = "clicar acessar perguntas"
+    acessar_perguntas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "listagem_perguntas")))
+    acessar_perguntas.click()
+
+    sleep(4)
+    erro = "clicar inicio"
+    inicio = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "inicio")))
+    inicio.click()
+
+    sleep(2)
     erro = "clicar criar perguntas"
     criar_perguntas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "criar_perguntas")))
     criar_perguntas.click()
     
-    sleep(1)
+    sleep(2)
     erro = "digitar materia"
     materia = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "materia")))
     materia.clear()
     materia.send_keys("Matemática")
     
-    sleep(1)
+    sleep(2)
     erro = "digitar titulo"
     titulo = driver.find_element(By.NAME, "titulo")
     titulo.clear()
     titulo.send_keys("Soma")
     
-    sleep(1)
+    sleep(2)
     erro = "digitar pergunta"
     pergunta = driver.find_element(By.NAME, "pergunta")
     pergunta.clear()
     pergunta.send_keys("2+2")
     
-    sleep(1)
+    sleep(2)
     erro = "digitar resposta"
     resposta = driver.find_element(By.NAME, "resposta")
     resposta.clear()
     resposta.send_keys("4")
     
-    sleep(1)
+    sleep(2)
     erro = "clicar cadastrar pergunta"
     cadastrar_pergunta = driver.find_element(By.NAME, "cadastrar_pergunta")
     cadastrar_pergunta.click()
     
-    sleep(2)
+    sleep(4)
     erro = "printar perguntas"
     perguntas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "tabela")))
     
