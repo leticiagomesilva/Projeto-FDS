@@ -107,6 +107,11 @@ Atualização do Relato de Pair Programming:
 
 ADICIONAR 
 
-Quadro da Sprint 02: !ATUALIZAR
+Quadro da Sprint 02: 
 
-![2023-10-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/7cd85345-5e56-4c75-8a10-d1be13e52921)
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/61a1f675-f827-4a74-8613-d8d881e2a31e)
+
+Print do BackLog Quadro Jira: 
+
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/3009673c-b223-42dd-bcc9-6f71141ab4ec)
+
