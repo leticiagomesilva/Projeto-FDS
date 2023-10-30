@@ -12,7 +12,7 @@ PATH = webdriver.ChromeService(executable_path="C:\Program Files (x86)\chromedri
 driver = webdriver.Chrome(options=options, service=PATH)
 
 driver.get("http://127.0.0.1:8000/")
-print(f"\nTeste de Criar Perguntas no site {driver.title}")
+print(f"\nTeste de Atualizar Meta no site {driver.title}")
 
 try:
     sleep(2)

@@ -14,7 +14,7 @@
     .pergunta {
         margin: 0;
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -25,7 +25,7 @@
     .resposta {
         margin: 0;
         position: absolute;
-        top: 65%;
+        top: 60%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -41,7 +41,7 @@
     {% csrf_token %}
     <label for="resposta">Digite a resposta:</label>
     <input type="text" name="resposta" id="resposta">
-    <button type="submit">Responder</button>
+    <button type="submit" name="responder">Responder</button>
 </form>
 
 <!-- Mensagem de erro (inicialmente oculta) -->
