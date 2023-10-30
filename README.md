@@ -31,8 +31,9 @@ Print do Quadro e BackLog do Jira:
 
 <h2>Entrega 02</h2>
 
-Links Utilizados:
-- Desenvolvimento Web: exquisite-app.azurewebsites.net
+Desenvolvimento Web:
+
+https://exquisite-app.azurewebsites.net
 
 Diagrama de Atividades:
 ![Diagrama de atividades_](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/333ebf52-f6cb-49f6-a3d9-df24f3c593c6)
@@ -86,7 +87,7 @@ https://miro.com/app/live-embed/uXjVNVdzO7I=/?moveToViewport=887,-399,3743,1783&
 
 Screencast da Aplicação Web:
 
-ADICIONAR 
+https://www.loom.com/share/0f92e758573644758ef993de43427647?sid=26a58b8f-65a5-480b-939b-18a6bbe59ff0 
 
 Link da Aplicação Web:
 
