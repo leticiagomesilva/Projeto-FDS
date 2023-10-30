@@ -107,6 +107,6 @@ Atualização do Relato de Pair Programming:
 
 ADICIONAR 
 
-Quadro da Sprint 02:
+Quadro da Sprint 02: !ATUALIZAR
 
 ![2023-10-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/7cd85345-5e56-4c75-8a10-d1be13e52921)
