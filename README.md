@@ -99,7 +99,7 @@ https://www.loom.com/share/19d648f36b644d89b7ab84275fb95b3a?sid=48216b61-4ebf-4b
 
 Screencast do Teste de Sistemas:
 
-https://www.loom.com/share/a6fa53f4d90347768039c240178f9d20?sid=e8a3b8aa-f35e-4b76-aebe-4bee78fc1fca
+https://www.loom.com/share/32a2c4eb6e1e4bf1a0d0b0df1fd6caba
 
 Atualização do Relato de Pair Programming: 
 
