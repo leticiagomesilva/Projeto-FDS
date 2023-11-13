@@ -113,3 +113,44 @@ Print do BackLog Quadro Jira:
 
 ![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/3009673c-b223-42dd-bcc9-6f71141ab4ec)
 
+<h2>Entrega 04</h2>
+
+Screencast do Protótipo Lo-Fi: 
+
+ADICIONAR
+
+Diagrama de Atividades Atualizado: 
+
+ADICIONAR
+
+Screencast da Aplicação Web:
+
+ADICIONAR
+
+Link da Aplicação Web:
+
+https://exquisite-app.azurewebsites.net
+
+Issue/Bug Tracker:
+
+ADICIONAR
+
+Screencast do Processo de Build CD/CI:
+
+ADICIONAR
+
+Screencast do Teste de Sistemas:
+
+ADICIONAR
+
+Atualização do Relato de Pair Programming: 
+
+ADICIONAR
+
+Quadro da Sprint 02: 
+
+ADICIONAR
+
+Print do BackLog Quadro Jira: 
+
+ADICIONAR
