@@ -105,7 +105,7 @@ Atualização do Relato de Pair Programming:
 
 Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foram separadas para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia Lopes ficaram responsáveis pelo código de avaliar perguntas. Posteriormente, alguns integrantes auxiliaram as outras duplas com outras partes do código, como a história de responder perguntas, que era necessário obter o ID de cada uma, para assim, associar à cada resposta. Essa parte foi a que as duplas tiveram mais dificuldade.
 
-Quadro da Sprint 02: 
+Quadro da Sprint 03: 
 
 ![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/61a1f675-f827-4a74-8613-d8d881e2a31e)
 
@@ -147,10 +147,10 @@ Atualização do Relato de Pair Programming:
 
 ADICIONAR
 
-Quadro da Sprint 02: 
+Quadro da Sprint 04: 
 
-ADICIONAR
+![2023-11-13](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/202a5c50-ee70-433b-a28c-cc774de64d1f)
 
 Print do BackLog Quadro Jira: 
 
-ADICIONAR
+![2023-11-13 (1)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/f158f7f1-9949-452c-be45-45af3634f766)
