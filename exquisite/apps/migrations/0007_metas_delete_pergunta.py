@@ -17,7 +17,4 @@ class Migration(migrations.Migration):
                 ('meta', models.CharField(choices=[('3 perguntas', '3'), ('5 perguntas', '5'), ('7 perguntas', '7'), ('9 perguntas', '9')], max_length=15)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Pergunta',
-        ),
     ]

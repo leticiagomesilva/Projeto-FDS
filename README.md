@@ -31,8 +31,9 @@ Print do Quadro e BackLog do Jira:
 
 <h2>Entrega 02</h2>
 
-Links Utilizados:
-- Desenvolvimento Web: exquisite-app.azurewebsites.net
+Desenvolvimento Web:
+
+https://exquisite-app.azurewebsites.net
 
 Diagrama de Atividades:
 ![Diagrama de atividades_](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/333ebf52-f6cb-49f6-a3d9-df24f3c593c6)
@@ -69,10 +70,6 @@ Print do Quadro e BackLog do Jira:
 - BackLog:
 ![2023-10-02 (4)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/6baf44f2-cc89-4c9d-9c1b-8fec44ec7f8c)
 
-Print do Issue/Bug Tracker:
-
-ADICIONAR
-
 <h2>Entrega 03</h2>
 
 Screencast do Protótipo: 
@@ -81,11 +78,12 @@ https://www.loom.com/share/b7b61bc516014e89aa90690e180bca73?sid=3de940b6-d1f7-43
 
 Diagrama de Atividades Atualizado: 
 
-https://miro.com/app/embed/uXjVNb8t0ag=/?pres=1&frameId=3458764567378116064&embedId=272727050158
+![WhatsApp Image 2023-10-30 at 17 04 05](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/cfe05339-5392-40b1-bd71-094aec525c3d)
+https://miro.com/app/live-embed/uXjVNVdzO7I=/?moveToViewport=887,-399,3743,1783&embedId=517822864870
 
 Screencast da Aplicação Web:
 
-ADICIONAR 
+https://www.loom.com/share/0f92e758573644758ef993de43427647?sid=26a58b8f-65a5-480b-939b-18a6bbe59ff0 
 
 Link da Aplicação Web:
 
@@ -93,7 +91,7 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/fa3f590e-0c93-4e59-a76f-60b8a1247a5e)
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/d3c92235-28d3-496e-af3b-6fa0afc3c1bd)
 
 Screencast do Processo de Build CD/CI:
 
@@ -101,13 +99,13 @@ https://www.loom.com/share/19d648f36b644d89b7ab84275fb95b3a?sid=48216b61-4ebf-4b
 
 Screencast do Teste de Sistemas:
 
-ADICIONAR 
+https://www.loom.com/share/32a2c4eb6e1e4bf1a0d0b0df1fd6caba
 
 Atualização do Relato de Pair Programming: 
 
-Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foi separada para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato, Gabriel Bezerra e Vinicus Petribu, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu novamente ficou responsável pelo código de avaliar perguntas.
+Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foram separadas para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia Lopes ficaram responsáveis pelo código de avaliar perguntas. Posteriormente, alguns integrantes auxiliaram as outras duplas com outras partes do código, como a história de responder perguntas, que era necessário obter o ID de cada uma, para assim, associar à cada resposta. Essa parte foi a que as duplas tiveram mais dificuldade.
 
-Quadro da Sprint 02: 
+Quadro da Sprint 03: 
 
 ![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/61a1f675-f827-4a74-8613-d8d881e2a31e)
 
@@ -115,3 +113,44 @@ Print do BackLog Quadro Jira:
 
 ![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/3009673c-b223-42dd-bcc9-6f71141ab4ec)
 
+<h2>Entrega 04</h2>
+
+Screencast do Protótipo Lo-Fi: 
+
+ADICIONAR
+
+Diagrama de Atividades Atualizado: 
+
+ADICIONAR
+
+Screencast da Aplicação Web:
+
+ADICIONAR
+
+Link da Aplicação Web:
+
+https://exquisite-app.azurewebsites.net
+
+Issue/Bug Tracker:
+
+ADICIONAR
+
+Screencast do Processo de Build CD/CI:
+
+ADICIONAR
+
+Screencast do Teste de Sistemas:
+
+ADICIONAR
+
+Atualização do Relato de Pair Programming: 
+
+ADICIONAR
+
+Quadro da Sprint 04: 
+
+![2023-11-13](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/202a5c50-ee70-433b-a28c-cc774de64d1f)
+
+Print do BackLog Quadro Jira: 
+
+![2023-11-13 (1)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/f158f7f1-9949-452c-be45-45af3634f766)
