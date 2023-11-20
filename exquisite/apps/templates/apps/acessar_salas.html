@@ -1,0 +1,24 @@
+{% extends 'apps/base.html' %}
+{% block content %}
+<br>
+<br>
+<br>
+    <div class="container">
+        <table name="tabela" class="table table-bordered table-striped">
+            <tr>
+                <th>Título da Sala</th>
+                <th>Matéria de Preferência</th>
+            </tr>
+            {% for sala in salas %}
+            <tr>
+                <td>{{sala.titulo_sala}}</td>
+                <td>{{sala.preferencia}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <a class="navbar-brand" href="{% url 'criar_salas' %}">
+            <h5>Criar Salas</h5>
+        </a>
+    </div>
+   
+{% endblock content %}
