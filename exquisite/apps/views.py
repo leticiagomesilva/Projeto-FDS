@@ -69,23 +69,6 @@ def acessar_perguntas(request):
 def salas(request):
     return render(request, 'apps/salas.html')
 
-def criar_salas(request):
-    return render(request, 'apps/criar_salas.html')
-
-def acessar_salas(request):
-    if request.method == 'POST':
-        novo_sala = Salas()
-        novo_sala.titulo_sala = request.POST.get('titulo_sala')
-        novo_sala.preferencia = request.POST.get('preferencia')
-    
-        if novo_sala.titulo_sala and novo_sala.preferencia:
-            novo_sala.save()
-
-    salas = {
-        'salas': Salas.objects.all()
-    }
-    return render(request, 'apps/acessar_salas.html', salas)
-
 def login(request):
     context = {
         'texts': ['E-mail'],
@@ -138,3 +121,20 @@ def responder(request, pergunta_id):
 
 def resposta_correta(request):
     return render(request, 'apps/resposta_correta.html', {'title': 'resposta_correta'})
+
+def criar_salas(request):
+    return render(request, 'apps/criar_salas.html')
+
+def acessar_salas(request):
+    if request.method == 'POST':
+        novo_sala = Salas()
+        novo_sala.titulo_sala = request.POST.get('titulo_sala')
+        novo_sala.preferencia = request.POST.get('preferencia')
+    
+        if novo_sala.titulo_sala and novo_sala.preferencia:
+            novo_sala.save()
+
+    salas = {
+        'salas': Salas.objects.all()
+    }
+    return render(request, 'apps/acessar_salas.html', salas)
