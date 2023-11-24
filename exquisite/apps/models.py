@@ -39,3 +39,6 @@ class responder(models.Model):
 class Salas(models.Model):
     titulo_sala = models.TextField(max_length=255)
     preferencia = models.TextField(max_length=255)
+
+class Filtro(models.Model):
+    filtro_materia = models.TextField(max_length=255)

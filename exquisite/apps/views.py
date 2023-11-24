@@ -126,15 +126,28 @@ def criar_salas(request):
     return render(request, 'apps/criar_salas.html')
 
 def acessar_salas(request):
+    filtrar = False
     if request.method == 'POST':
+
         novo_sala = Salas()
         novo_sala.titulo_sala = request.POST.get('titulo_sala')
         novo_sala.preferencia = request.POST.get('preferencia')
-    
+
         if novo_sala.titulo_sala and novo_sala.preferencia:
             novo_sala.save()
 
+        preferencia = Filtro()
+        preferencia.filtro_materia = request.POST.get('filtro_materia')
+
+        if preferencia.filtro_materia:
+            preferencia.save() 
+            filtrar = True
+
     salas = {
-        'salas': Salas.objects.all()
+        'salas': Salas.objects.all(),
+        'filtro': Filtro.objects.last(),
     }
-    return render(request, 'apps/acessar_salas.html', salas)
+    return render(request, 'apps/acessar_salas.html', {**salas, 'bool': filtrar})
+
+def filtrar_salas(request):
+    return render(request, 'apps/filtrar_salas.html')
