@@ -134,11 +134,7 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-ADICIONAR
-
-Screencast do Processo de Build CD/CI:
-
-ADICIONAR
+![issuebug](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4e6c7868-54d4-4db8-a43e-d5f8bad55b73)
 
 Screencast do Teste de Sistemas:
 
