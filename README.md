@@ -121,7 +121,8 @@ ADICIONAR
 
 Diagrama de Atividades Atualizado: 
 
-ADICIONAR
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132570714/2e69294b-a29c-4338-9fc4-e9a19c393463)
+https://miro.com/app/board/uXjVNVdzO7I=/?share_link_id=965785293288
 
 Screencast da Aplicação Web:
 
@@ -145,7 +146,9 @@ ADICIONAR
 
 Atualização do Relato de Pair Programming: 
 
-ADICIONAR
+Os pares permaneceram os mesmos na entrega 4. Hugo e Letícia ficaram responsáveis por implementar a história de criar salas, a dupla obteve êxito rapidamente nessa tarefa.
+Gabriel Belliato e Gabriel Bezerra implementaram a história de deletar perguntas e não tiveram dificuldades na trajetória.
+Vinicius Petribu e Leticia Lopes ficaram responsáveis por implementar a história de filtrar salas já criadas, fazendo uma ponte grande com a história implementada por Hugo e Leticia, que acabaram por auxiliar bastante a dupla no processo. Depois que todas as implementações foram concluídas, os integrantes fizeram breves revisões na interface do site visando identificar irregularidades visuais. Nesse cenário, as poucas irregularidades encontradas foram corrigidas.
 
 Quadro da Sprint 04: 
 
