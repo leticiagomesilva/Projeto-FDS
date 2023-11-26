@@ -117,7 +117,7 @@ Print do BackLog Quadro Jira:
 
 Screencast do Protótipo Lo-Fi: 
 
-ADICIONAR
+https://www.loom.com/share/3d5dded0a2ad416a84113f484fb585da
 
 Diagrama de Atividades Atualizado: 
 
