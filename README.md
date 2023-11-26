@@ -158,9 +158,11 @@ _______________________________
 Como contribuir com o Exquisite:
 
 Você pode contriubuir com o Exquisite de várias maneiras: 
-[1] Reportando um problema (e não resolvendo ele)
-[2] Reportando um problema (e resolvendo ele)
-[2] Resolvendo problemas já reportados 
+[1] Reportando um problema (e não resolvendo ele);
+
+[2] Reportando um problema (e resolvendo ele);
+
+[3] Resolvendo problemas já reportados.
 
 Seguem três explicações sucintas sobre esses tópicos:
 
