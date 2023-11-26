@@ -1,5 +1,12 @@
 {% extends 'apps/base.html' %}
 {% block content %}
+
+<style>
+    .espaçamento_botoes{
+        margin-right: 1%;
+    }
+</style>
+
 <br>
 <br>
 <br>
@@ -25,12 +32,10 @@
             {% endif %}
             {% endfor %}
         </table>
-        <a class="navbar-brand" href="{% url 'criar_salas' %}">
-            <h5>Criar Salas</h5>
-        </a>
-        <a class="navbar-brand" href="{% url 'filtrar_salas' %}" name="filtrar_salas">
-            <h5>Filtrar Salas</h5>
-        </a>
+        <div>
+            <a class="btn btn-outline-dark btn-lg espaçamento_botoes" href="{% url 'criar_salas' %}" role="button" name="criar_salas">Criar Salas</a>
+            <a class="btn btn-outline-dark btn-lg" href="{% url 'filtrar_salas' %}" role="button" name="filtrar_salas">Filtrar Salas</a>
+        </div>
     </div>
    
 {% endblock content %}

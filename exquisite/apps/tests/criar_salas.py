@@ -24,11 +24,6 @@ try:
     erro = "clicar acessar salas"
     acessar_salas = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "acessar_salas")))
     acessar_salas.click()
-    
-    sleep(3)
-    erro = "clicar salas 2"
-    salas2 = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "salas")))
-    salas2.click()
 
     sleep(3)
     erro = "clicar criar salas"
