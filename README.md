@@ -148,8 +148,8 @@ Vinicius Petribu e Leticia Lopes ficaram responsáveis por implementar a histór
 
 Quadro da Sprint 04: 
 
-![2023-11-13](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/202a5c50-ee70-433b-a28c-cc774de64d1f)
+![2023-11-26 (1)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/e72f3022-9a1e-46cf-83d9-45b75d557cd2)
 
 Print do BackLog Quadro Jira: 
 
-![2023-11-13 (1)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/f158f7f1-9949-452c-be45-45af3634f766)
+![2023-11-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/d48ffb1a-2b02-4e03-9b89-b3387415309a)
