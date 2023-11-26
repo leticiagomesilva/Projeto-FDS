@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import *
+from .forms import *
 
 
 def inicio(request):
@@ -151,3 +152,23 @@ def acessar_salas(request):
 
 def filtrar_salas(request):
     return render(request, 'apps/filtrar_salas.html')
+
+def excluir_pergunta(request):
+    erro = False
+    if request.method == 'POST':
+        form = ExcluirPerguntaForm(request.POST)
+        if form.is_valid():
+            titulo = form.cleaned_data['titulo']
+            try:
+                pergunta = get_object_or_404(PerguntasBD, titulo=titulo)
+                pergunta.delete()
+                return redirect('listagem_perguntas')
+            except:
+                erro = True
+                return render(request, 'apps/excluir_pergunta.html', {'form': form, "erro": erro})
+        else:
+            return redirect('excluir_pergunta')
+    else:
+        form = ExcluirPerguntaForm()
+
+    return render(request, 'apps/excluir_pergunta.html', {'form': form})
