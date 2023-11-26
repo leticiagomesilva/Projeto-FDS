@@ -35,3 +35,10 @@ class Meta(models.Model):
 
 class responder(models.Model):
     resposta_nova= models.TextField(max_length=255)
+
+class Salas(models.Model):
+    titulo_sala = models.TextField(max_length=255)
+    preferencia = models.TextField(max_length=255)
+
+class Filtro(models.Model):
+    filtro_materia = models.TextField(max_length=255)

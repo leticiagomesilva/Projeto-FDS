@@ -11,9 +11,13 @@ urlpatterns = [
     path('acessar_perguntas/', views.acessar_perguntas, name="listagem_perguntas"),
     path('login/', views.login, name="login"),
     path('salas/', views.salas, name="salas"),
+    path('criar_salas/', views.criar_salas, name="criar_salas"),
+    path('acessar_salas/', views.acessar_salas, name="acessar_salas"),
+    path('filtrar_salas/', views.filtrar_salas, name="filtrar_salas"),
     path('cadastro/', views.cadastro, name="cadastro"),
     path('avaliar/', views.avaliar, name="avaliar"),
     path('avaliacao_sucesso/', views.avaliacao_sucesso, name='avaliacao_sucesso'),
     path('acessar_perguntas/responder/<int:pergunta_id>/', views.responder, name='responder'),
     path('acessar_perguntas/responder/resposta_correta/', views.resposta_correta, name='resposta_correta'),
+    path('excluir_pergunta/', views.excluir_pergunta, name="excluir_pergunta"),
 ]

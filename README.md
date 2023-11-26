@@ -105,7 +105,7 @@ Atualização do Relato de Pair Programming:
 
 Na entrega 2 os pares continuaram os mesmos, Hugo Rocha e Letícia Gomes, Gabriel Belliato e Gabriel Bezerra e como foi adicionado um integrante ao grupo, mais uma dupla foi formada, Vinicius Petribu e Letícia Lopes. Todas as duplas trabalharam com eficiência, trazendo seus conhecimentos para o código e traduzindo eles para o driver. As tarefas de codificação foram separadas para cada dupla da seguinte forma: Hugo e Letícia ficaram responsáveis pelo código de criar e acessar perguntas, ranking e metas, já Gabriel Belliato e Gabriel Bezerra, ficaram responsáveis pela parte de responder perguntas e, por fim, Vinicius Petribu e Letícia Lopes ficaram responsáveis pelo código de avaliar perguntas. Posteriormente, alguns integrantes auxiliaram as outras duplas com outras partes do código, como a história de responder perguntas, que era necessário obter o ID de cada uma, para assim, associar à cada resposta. Essa parte foi a que as duplas tiveram mais dificuldade.
 
-Quadro da Sprint 02: 
+Quadro da Sprint 03: 
 
 ![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132574651/61a1f675-f827-4a74-8613-d8d881e2a31e)
 
@@ -117,11 +117,12 @@ Print do BackLog Quadro Jira:
 
 Screencast do Protótipo Lo-Fi: 
 
-ADICIONAR
+https://www.loom.com/share/3d5dded0a2ad416a84113f484fb585da
 
 Diagrama de Atividades Atualizado: 
 
-ADICIONAR
+![image](https://github.com/leticiagomesilva/Projeto-FDS/assets/132570714/2e69294b-a29c-4338-9fc4-e9a19c393463)
+https://miro.com/app/board/uXjVNVdzO7I=/?share_link_id=965785293288
 
 Screencast da Aplicação Web:
 
@@ -133,11 +134,7 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-ADICIONAR
-
-Screencast do Processo de Build CD/CI:
-
-ADICIONAR
+![issuebug](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4e6c7868-54d4-4db8-a43e-d5f8bad55b73)
 
 Screencast do Teste de Sistemas:
 
@@ -145,12 +142,37 @@ ADICIONAR
 
 Atualização do Relato de Pair Programming: 
 
-ADICIONAR
+Os pares permaneceram os mesmos na entrega 4. Hugo e Letícia ficaram responsáveis por implementar a história de criar salas, a dupla obteve êxito rapidamente nessa tarefa.
+Gabriel Belliato e Gabriel Bezerra implementaram a história de deletar perguntas e não tiveram dificuldades na trajetória.
+Vinicius Petribu e Leticia Lopes ficaram responsáveis por implementar a história de filtrar salas já criadas, fazendo uma ponte grande com a história implementada por Hugo e Leticia, que acabaram por auxiliar bastante a dupla no processo. Depois que todas as implementações foram concluídas, os integrantes fizeram breves revisões na interface do site visando identificar irregularidades visuais. Nesse cenário, as poucas irregularidades encontradas foram corrigidas.
 
-Quadro da Sprint 02: 
+Quadro da Sprint 04: 
 
-ADICIONAR
+![2023-11-26 (1)](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/e72f3022-9a1e-46cf-83d9-45b75d557cd2)
 
 Print do BackLog Quadro Jira: 
 
-ADICIONAR
+![2023-11-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/d48ffb1a-2b02-4e03-9b89-b3387415309a)
+
+Como contribuir com o Exquisite:
+- Git clone do arquivo presente no Github
+- Instale um ambiente virtual usando a seguinte linha de comando: 
+```
+python -m venv venv 
+```
+- Após criar o ambiente virtual é necessário ativar a venv:
+```
+./venv/Scripts/activate
+```
+- Entre no arquivo do projeto Exquisite 
+```
+cd exquisite
+```
+- E instale o arquivo de requirements:
+```
+pip install -r requirements.txt
+```
+- Por fim, rode o proprama com a seguinte linha de código:
+```
+py manage.py runserver
+```

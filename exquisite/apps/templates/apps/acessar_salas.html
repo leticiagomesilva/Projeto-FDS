@@ -1,0 +1,41 @@
+{% extends 'apps/base.html' %}
+{% block content %}
+
+<style>
+    .espaçamento_botoes{
+        margin-right: 1%;
+    }
+</style>
+
+<br>
+<br>
+<br>
+    <div class="container">
+        <table name="tabela" class="table table-bordered table-striped">
+            <tr>
+                <th>Título da Sala</th>
+                <th>Matéria de Preferência</th>
+            </tr>
+            {% for sala in salas %}
+            {% if bool %}
+                {% if sala.preferencia == filtro.filtro_materia %}
+                    <tr>
+                        <td>{{sala.titulo_sala}}</td>
+                        <td>{{sala.preferencia}}</td>
+                    </tr>
+                {% endif %}
+            {% else %}
+                <tr>
+                    <td>{{sala.titulo_sala}}</td>
+                    <td>{{sala.preferencia}}</td>
+                </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+        <div>
+            <a class="btn btn-outline-dark btn-lg espaçamento_botoes" href="{% url 'criar_salas' %}" role="button" name="criar_salas">Criar Salas</a>
+            <a class="btn btn-outline-dark btn-lg" href="{% url 'filtrar_salas' %}" role="button" name="filtrar_salas">Filtrar Salas</a>
+        </div>
+    </div>
+   
+{% endblock content %}

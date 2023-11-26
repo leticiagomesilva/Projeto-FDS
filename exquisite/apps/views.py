@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import *
+from .forms import *
 
 
 def inicio(request):
@@ -69,7 +70,6 @@ def acessar_perguntas(request):
 def salas(request):
     return render(request, 'apps/salas.html')
 
-
 def login(request):
     context = {
         'texts': ['E-mail'],
@@ -122,3 +122,53 @@ def responder(request, pergunta_id):
 
 def resposta_correta(request):
     return render(request, 'apps/resposta_correta.html', {'title': 'resposta_correta'})
+
+def criar_salas(request):
+    return render(request, 'apps/criar_salas.html')
+
+def acessar_salas(request):
+    filtrar = False
+    if request.method == 'POST':
+
+        novo_sala = Salas()
+        novo_sala.titulo_sala = request.POST.get('titulo_sala')
+        novo_sala.preferencia = request.POST.get('preferencia')
+
+        if novo_sala.titulo_sala and novo_sala.preferencia:
+            novo_sala.save()
+
+        preferencia = Filtro()
+        preferencia.filtro_materia = request.POST.get('filtro_materia')
+
+        if preferencia.filtro_materia:
+            preferencia.save() 
+            filtrar = True
+
+    salas = {
+        'salas': Salas.objects.all(),
+        'filtro': Filtro.objects.last(),
+    }
+    return render(request, 'apps/acessar_salas.html', {**salas, 'bool': filtrar})
+
+def filtrar_salas(request):
+    return render(request, 'apps/filtrar_salas.html')
+
+def excluir_pergunta(request):
+    erro = False
+    if request.method == 'POST':
+        form = ExcluirPerguntaForm(request.POST)
+        if form.is_valid():
+            titulo = form.cleaned_data['titulo']
+            try:
+                pergunta = get_object_or_404(PerguntasBD, titulo=titulo)
+                pergunta.delete()
+                return redirect('listagem_perguntas')
+            except:
+                erro = True
+                return render(request, 'apps/excluir_pergunta.html', {'form': form, "erro": erro})
+        else:
+            return redirect('excluir_pergunta')
+    else:
+        form = ExcluirPerguntaForm()
+
+    return render(request, 'apps/excluir_pergunta.html', {'form': form})

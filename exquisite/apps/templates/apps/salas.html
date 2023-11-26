@@ -1,4 +1,7 @@
 {% extends 'apps/base.html' %}
 {% block content %}
-    
+<div class="center">
+    <a class="btn btn-outline-dark btn-lg" href="{% url 'criar_salas' %}" role="button" name="criar_salas">Criar Salas<a>
+    <a class="btn btn-outline-dark btn-lg" href="{% url 'acessar_salas' %}" role="button" name="acessar_salas">Acessar Salas</a>
+</div>
 {% endblock content %}
