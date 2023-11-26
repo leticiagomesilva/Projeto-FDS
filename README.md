@@ -164,11 +164,11 @@ Você pode contriubuir com o Exquisite de várias maneiras:
 
 Seguem três explicações sucintas sobre esses tópicos:
 
-[1] Caso você encontre um problema (bugs e issues) e não queira resolve-lo, você pode reportar o que foi encontrado na página destinada a https://github.com/leticiagomesilva/Projeto-FDS/issues. Lembre-se de detalhar as informações referentes ao problema que você encontrou (use prints e/ou gravações de tela, além de uma explicação clara por escrito).
+[1] Caso você encontre um problema (bugs e issues) e não queira resolve-lo, você pode reportar o que foi encontrado na página destinada a issues. Lembre-se de detalhar as informações referentes ao problema que você encontrou (use prints e/ou gravações de tela, além de uma explicação clara por escrito).
 
-[2] Caso você encontre um problema (bugs e issues) e decida resolve-lo, você pode reportar o que foi encontrado na página destinada a https://github.com/leticiagomesilva/Projeto-FDS/issues. Lembre-se de detalhar as informações referentes ao problema que você encontrou (use prints e/ou gravações de tela, além de uma explicação clara por escrito). Em seguida, você tentar resolver o problema da melhor forma que conseguir e depois alterar o status dele na página de https://github.com/leticiagomesilva/Projeto-FDS/issues.
+[2] Caso você encontre um problema (bugs e issues) e decida resolve-lo, você pode reportar o que foi encontrado na página destinada a issues. Lembre-se de detalhar as informações referentes ao problema que você encontrou (use prints e/ou gravações de tela, além de uma explicação clara por escrito). Em seguida, você tentar resolver o problema da melhor forma que conseguir e depois alterar o status dele na página de issues.
 
-[3] Caso você se depare com um problema (bugs e issues) que já foi reportado em nossa página de https://github.com/leticiagomesilva/Projeto-FDS/issues, pode escolher ele e tentar resolve-lo da melhor forma possível. Você também é livre para aprimorar os códigos dos problemas reportados.
+[3] Caso você se depare com um problema (bugs e issues) que já foi reportado em nossa página de issues, pode escolher ele e tentar resolve-lo da melhor forma possível. Você também é livre para aprimorar os códigos dos problemas reportados.
 _______________________________
 
 Etapas para que você possa fazer as alterações sugeridas acima:
