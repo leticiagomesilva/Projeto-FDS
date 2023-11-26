@@ -153,3 +153,26 @@ Quadro da Sprint 04:
 Print do BackLog Quadro Jira: 
 
 ![2023-11-26](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/d48ffb1a-2b02-4e03-9b89-b3387415309a)
+
+Como contribuir com o Exquisite:
+- Git clone do arquivo presente no Github
+- Instale um ambiente virtual usando a seguinte linha de comando: 
+```
+python -m venv venv 
+```
+- Após criar o ambiente virtual é necessário ativar a venv:
+```
+./venv/Scripts/activate
+```
+- Entre no arquivo do projeto Exquisite 
+```
+cd exquisite
+```
+- E instale o arquivo de requirements:
+```
+pip install -r requirements.txt
+```
+- Por fim, rode o proprama com a seguinte linha de código:
+```
+py manage.py runserver
+```
