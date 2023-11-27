@@ -138,7 +138,7 @@ Issue/Bug Tracker:
 
 Screencast do Teste de Sistemas:
 
-ADICIONAR
+https://www.loom.com/share/4b476ed7a8d14137a132be4ba099b1b3?sid=9dfd8c53-aeb9-4ed6-a431-906b477783ff
 
 Atualização do Relato de Pair Programming: 
 
