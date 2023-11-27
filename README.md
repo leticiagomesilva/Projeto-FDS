@@ -134,7 +134,7 @@ https://exquisite-app.azurewebsites.net
 
 Issue/Bug Tracker:
 
-![issuebug](https://github.com/leticiagomesilva/Projeto-FDS/assets/132513364/4e6c7868-54d4-4db8-a43e-d5f8bad55b73)
+![issuebug](https://github.com/leticiagomesilva/Projeto-FDS/assets/143443604/658bd180-5551-4d61-af5d-aadd72ee83cd)
 
 Screencast do Teste de Sistemas:
 
