@@ -183,7 +183,7 @@ _______________________________
 
 Observações importantes: 
 
-1- Por se tratar de um trabalho em conjunto, você deve estar adepto e deve colocar em açaõ as boas práticas de programação. Sempre verficando a legibilidade do código.
+1- Por se tratar de um trabalho em conjunto, você deve estar adepto e deve colocar em ação as boas práticas de programação. Sempre verficando a legibilidade do código.
 
 2- Antes de submeter suas alterações, lembre- se de testar elas de forma local. 
 
