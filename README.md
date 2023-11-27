@@ -126,7 +126,7 @@ https://miro.com/app/board/uXjVNVdzO7I=/?share_link_id=965785293288
 
 Screencast da Aplicação Web:
 
-ADICIONAR
+https://www.loom.com/share/1acf7997aac940688312ea784a200fc9?sid=5e3319a9-33d7-4ebc-afa4-18483c70120b
 
 Link da Aplicação Web:
 
