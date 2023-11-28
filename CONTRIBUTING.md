@@ -37,9 +37,9 @@ Caso queira entrar em contato com a equipe para tirar dúvidas ou fornecer outra
 
 Equipe Exquisite:
 
->Gabriel Bezerra de Andrade - gba@cesar.school
->Gabriel Henriques Belliato - ghb@cesar.school
->Hugo Alcantra da Rocha - har3@cesar.school
->Letícia Gomes da Silva - lgs@cesar.school
->Leticia Lopes Moreira - llm3@cesar.school
+>Gabriel Bezerra de Andrade - gba@cesar.school |
+>Gabriel Henriques Belliato - ghb@cesar.school |
+>Hugo Alcantra da Rocha - har3@cesar.school |
+>Letícia Gomes da Silva - lgs@cesar.school |
+>Leticia Lopes Moreira - llm3@cesar.school |
 >Vinícius Petribu - vclp@cesar.school
